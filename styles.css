@@ -1,2 +1,69 @@
 
 /* Your CSS Code here. */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+/* Your CSS Code here. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    background-image: linear-gradient(to top, rgb(168, 82, 96), yellow);
+    max-width: 500px;
+    border: 1px solid black;
+}
+
+.info {
+    margin: 20px;
+    border: 1px solid rgb(6, 1, 1);
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    /* background-color: rgb(98, 153, 153); */
+    color: rgb(21, 14, 19);
+    font-size: 35px;
+    font-weight: 500;
+    width: 35rem;
+    height: 140px;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border: 1px solid rgb(15, 16, 11);
+}
+
+.print {
+    margin-left: 20px;
+    max-width: 500px;
+    border: 1px solid rgb(9, 1, 1);
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    border: 1px solid rgb(10, 9, 9);
+    display: grid;
+    justify-content: start;
+}
+
+section {
+    width: 500px;
+    /* border: 1px solid rgb(4, 4, 4); */
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
