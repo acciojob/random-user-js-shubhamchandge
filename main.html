@@ -4,12 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div class="container">
+		<div class="info">
+			<div id="name" class="name"> </div>
+			<img id="image" alt="" width="140 px" height="140 px">
+
+		</div>
+		<div class="print">
+			<section id="infosection"> </section>
+			<div class="button">
+				<button type="button" onclick="showAge();" data-attr="age" value="age"
+					class="btn btn-success">Age</button>
+				<button type="button" onclick="showEmail();" data-attr="email" value="email"
+					class="btn btn-warning">Email</button>
+				<button type="button" onclick="showPhone();" data-attr="phone" value="phone"
+					class="btn btn-primary">Phone Number</button>
+				<button type="button" onclick="showUserDetails();" id="getUser" value="phone" class="btn btn-info">Get
+					New User</button>
+
+			</div>
+
+		</div>
+
+
+
+		<script type="text/javascript" src="./script.js">
+		</script>
 
 </body>
 
